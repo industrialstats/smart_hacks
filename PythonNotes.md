@@ -12,3 +12,5 @@ def normalize_caseless(text):
 def caseless_equal(left, right):
     return normalize_caseless(left) == normalize_caseless(right)
 ```
+## IO Operations
+1. Unlike pyyaml, Configparser does not guess datatypes. They have to be explicitly enforced.
